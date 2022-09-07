@@ -1,0 +1,23 @@
+#lang wobject2/parse-only
+5;
+foo;
+"hello, world!";
+true;
+false;
+null;
+[];
+[1];
+[1, 2, 3];
+{};
+{foo: [4, 5, 6]};
+{bar: "hello", baz: 42};
+6 + 7;
+6 * 7;
+-~6;
+a = "this string";
+def f() {};
+def f(a) {return a + 1;};
+def f(a, b, c) {
+  d = a + b * c;
+  return -d * d;
+};
